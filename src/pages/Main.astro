@@ -1,0 +1,17 @@
+<main class="bg-[url('/public/imgs/tec.png')] w-full h-[850px] bg-cover pt-8">
+    <nav class="container mx-auto flex justify-between">
+        <img src="/public/imgs/logo.png" alt="logo" class="w-32">
+        <ul class="flex gap-16 text-gris">
+            <a href="/">
+                <li class="text-blanco font-medium text-xl hover:border-b-[1.5px] hover:text-blanco border-blanco">Inicio</li>
+            </a>
+            <a href="/registrar">
+                <li class="text-blanco font-medium text-xl hover:border-b-[1.5px] hover:text-blanco border-blanco">Regístrate</li>
+            </a>
+            <a href="/iniciar">
+                <li class="text-blanco font-medium text-xl hover:border-b-[1.5px] hover:text-blanco border-blanco">Iniciar Sesión</li>
+            </a>
+        </ul>
+    </nav>
+    <slot />
+</main>
